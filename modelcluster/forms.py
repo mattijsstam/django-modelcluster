@@ -212,7 +212,7 @@ class ClusterFormOptions(ModelFormOptions):
 
 
 class ClusterFormMetaclass(ModelFormMetaclass):
-    extra_form_count = 3
+    extra_form_count = 0
 
     @classmethod
     def child_form(cls):
